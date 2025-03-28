@@ -15,5 +15,5 @@ public class CategoryModel
     [Required]
     public bool IsActive { get; set; }
 
-    public List<Transaction> Transactions { get; set; } = new List<Transaction>();
+    public List<TransactionModel> Transactions { get; set; } = new List<TransactionModel>();
 }

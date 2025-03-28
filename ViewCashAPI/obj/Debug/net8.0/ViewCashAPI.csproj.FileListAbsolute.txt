@@ -132,3 +132,4 @@ C:\Users\70000433\RiderProjects\ViewCashAPI\ViewCashAPI\obj\Debug\net8.0\refint\
 C:\Users\70000433\RiderProjects\ViewCashAPI\ViewCashAPI\obj\Debug\net8.0\ViewCashAPI.pdb
 C:\Users\70000433\RiderProjects\ViewCashAPI\ViewCashAPI\obj\Debug\net8.0\ViewCashAPI.genruntimeconfig.cache
 C:\Users\70000433\RiderProjects\ViewCashAPI\ViewCashAPI\obj\Debug\net8.0\ref\ViewCashAPI.dll
+C:\Users\70000433\RiderProjects\ViewCashAPI\ViewCashAPI\obj\Debug\net8.0\ViewCashAPI.sourcelink.json
