@@ -1,4 +1,5 @@
 ﻿using ViewCashAPI.DTOs;
+using ViewCashAPI.Enums;
 using ViewCashAPI.Helpers;
 using ViewCashAPI.Interfaces;
 using ViewCashAPI.Models;
@@ -18,6 +19,9 @@ public class CategoryService : ICategoryService
     
     public async Task<CategoryViewModel> CreateCategoryAsync(CreateCategoryDTO createCategoryDTO)
     {
+        if (!Enum.IsDefined(typeof(TransactionType), createCategoryDTO.Type))
+            throw new Exception("Invalid category type");
+        
         var category = new CategoryModel
         {
             Name = createCategoryDTO.Name,
